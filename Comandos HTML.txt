@@ -1,0 +1,94 @@
+
+ >>>Comandos HTML<<<
+
+ 1. Estrutura Básica
+<!DOCTYPE html>: Define o tipo de documento (HTML5).
+<html>: A tag raiz que contém todo o conteúdo de uma página HTML.
+<head>: Contém informações meta sobre o documento, links para arquivos externos (CSS, JS) e o título.
+<title>: Define o título da página mostrado na aba do navegador.
+<body>: Contém todo o conteúdo visível para o usuário.
+
+2. Cabeçalhos e Texto
+<h1> a <h6>: Define cabeçalhos, onde <h1> é o maior e <h6> o menor.
+<p>: Define um parágrafo.
+<br>: Insere uma quebra de linha.
+<hr>: Insere uma linha horizontal para separar conteúdos.
+<b>: Aplica negrito ao texto (apenas visual, sem semântica).
+<strong>: Aplica negrito com ênfase semântica.
+<i>: Aplica itálico ao texto (apenas visual, sem semântica).
+<em>: Aplica itálico com ênfase semântica.
+<mark>: Destaca o texto como se estivesse marcado com marca-texto.
+<small>: Reduz o tamanho da fonte do texto.
+<sub>: Define texto em subscrito (abaixo da linha base).
+<sup>: Define texto em sobrescrito (acima da linha base).
+<blockquote>: Define uma citação em bloco.
+<q>: Define uma citação curta em linha.
+<code>: Representa código em formato monoespaçado.
+<pre>: Exibe texto pré-formatado (mantém espaçamentos e quebras de linha).
+<span>: Usado para agrupar texto em linha sem alterar o estilo padrão.
+
+3. Links e Navegação
+<a>: Cria um link (atributo href especifica o destino).
+<nav>: Define uma seção de navegação principal para links.
+
+4. Listas
+<ul>: Define uma lista não ordenada (com marcadores).
+<ol>: Define uma lista ordenada (com números ou letras).
+<li>: Define um item de lista.
+<dl>: Define uma lista de descrição.
+<dt>: Define um termo em uma lista de descrição.
+<dd>: Define a descrição de um termo em uma lista.
+
+5. Imagens e Mídia
+<img>: Insere uma imagem (atributo src define o caminho da imagem).
+<figure>: Agrupa imagens e legendas.
+<figcaption>: Fornece uma legenda para o elemento <figure>.
+<audio>: Incorpora áudio com controles (atributo src ou conteúdo <source>).
+<video>: Incorpora vídeo com controles (atributo src ou conteúdo <source>).
+<source>: Define arquivos de mídia alternativos para <audio> ou <video>.
+<track>: Adiciona legendas para <video> e <audio>.
+
+6. Tabelas
+<table>: Cria uma tabela.
+<tr>: Define uma linha na tabela.
+<td>: Define uma célula de dados em uma linha.
+<th>: Define uma célula de cabeçalho na tabela.
+<thead>: Agrupa o cabeçalho de uma tabela.
+<tbody>: Agrupa o corpo da tabela.
+<tfoot>: Agrupa o rodapé da tabela.
+<caption>: Define uma legenda para a tabela.
+
+7. Formulários e Inputs
+<form>: Cria um formulário para entrada de dados.
+<input>: Define um campo de entrada (texto, senha, checkbox, rádio, etc.).
+<label>: Associa um rótulo a um campo <input>.
+<textarea>: Cria um campo de texto de várias linhas.
+<button>: Cria um botão clicável.
+<select>: Cria uma lista suspensa.
+<option>: Define uma opção dentro de um <select>.
+<fieldset>: Agrupa elementos relacionados em um formulário.
+<legend>: Fornece uma legenda para o <fieldset>.
+
+8. Estrutura Semântica
+<header>: Define o cabeçalho de uma página ou seção.
+<footer>: Define o rodapé de uma página ou seção.
+<section>: Define uma seção genérica de conteúdo.
+<article>: Define conteúdo independente (como posts de blog ou artigos).
+<aside>: Define conteúdo secundário ou relacionado (como barras laterais).
+<main>: Define o conteúdo principal da página.
+<div>: Cria um contêiner genérico para agrupar elementos (semântica neutra).
+
+9. Scripts e Links Externos
+<script>: Incorpora ou referencia scripts JavaScript.
+<link>: Vincula arquivos externos, como CSS.
+<style>: Adiciona estilos CSS diretamente no HTML.
+
+10. Meta Tags
+<meta>: Define informações meta (charset, viewport, descrições).
+charset: Define o conjunto de caracteres (UTF-8, por exemplo).
+viewport: Configura como o site é exibido em dispositivos móveis.
+
+11. Obsoletas e menos usadas
+<marquee>: Cria texto rolante (obsoleto).
+<center>: Centraliza conteúdo (obsoleto, use CSS).
+<font>: Define fonte (obsoleto, use CSS).
