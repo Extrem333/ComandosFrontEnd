@@ -1,6 +1,6 @@
->>>Comandos HTML<<<
+    >>>Comandos HTML<<<
 
-1. **Estrutura Básica**  
+1. **Estrutura Básica**
 
 - `<!DOCTYPE html>`: Define o tipo de documento (HTML5).  
 - `<html>`: A tag raiz que contém todo o conteúdo de uma página HTML.  
