@@ -1,0 +1,77 @@
+1. Seletores
+
+Os seletores são usados para definir quais elementos HTML serão estilizados.
+
+- `* (Asterisco) → Seleciona todos os elementos da página.
+- `elemento → Seleciona todos os elementos do tipo especificado (ex: p, h1, div).
+- `.classe → Seleciona elementos com uma classe específica.
+- `#id → Seleciona um único elemento com o ID especificado.
+- `elemento1, elemento2 → Seleciona múltiplos elementos ao mesmo tempo.
+- `elemento elemento-filho → Seleciona elementos dentro de outro elemento específico.
+- `elemento > filho-direto → Seleciona apenas os filhos diretos de um elemento específico
+
+
+2. Propriedades de Texto
+Essas propriedades controlam a aparência do texto.
+
+- `color → Define a cor do texto.
+- `font-size → Define o tamanho da fonte.
+- `font-family → Define a família de fontes do texto.
+- `font-weight → Define o peso da fonte (normal, negrito, etc.).
+- `text-align → Define o alinhamento do texto (esquerda, centro, direita, justificado).
+- `text-decoration → Adiciona efeitos ao texto (sublinhado, riscado, etc.)
+
+
+3. Propriedades de Fundo
+Essas propriedades controlam o fundo dos elementos.
+
+- `background-color → Define a cor de fundo do elemento.
+- `background-image → Define uma imagem de fundo.
+- `background-repeat → Define se a imagem de fundo será repetida ou não.
+- `background-size → Define o tamanho da imagem de fundo.
+
+
+4. Propriedades de Box Model
+Controlam o tamanho e espaçamento dos elementos.
+
+- `width → Define a largura do elemento.
+- `height → Define a altura do elemento.
+- `margin → Define o espaço externo ao redor do elemento.
+- `padding → Define o espaço interno dentro do elemento.
+- `border → Define a borda do elemento.
+- `border-radius → Define o arredondamento das bordas do elemento.
+
+
+5. Propriedades de Posição
+Definem como os elementos são posicionados na página.
+
+- `position → Define o tipo de posicionamento (estático, relativo, absoluto, fixo).
+- `top, left, right, bottom → Definem a posição exata do elemento.
+- `z-index → Controla a sobreposição dos elementos na página.
+
+
+
+6. Propriedades de Display e Visibilidade
+Controlam a forma como os elementos aparecem na página.
+
+- `display → Define o tipo de exibição do elemento (block, inline, flex, grid, none).
+- `visibility → Define se um elemento está visível ou oculto.
+- `overflow → Controla o que acontece quando o conteúdo ultrapassa o tamanho do elemento.
+
+
+7. Flexbox e Grid
+Facilitam a criação de layouts responsivos.
+
+- `display: flex → Ativa o Flexbox no elemento.
+- `justify-content → Alinha os elementos filhos horizontalmente.
+- `align-items → Alinha os elementos filhos verticalmente.
+- `display: grid → Ativa o Grid Layout no elemento.
+- `grid-template-columns → Define o número e tamanho das colunas do grid.
+
+
+8. Animações e Transições
+Permitem criar animações e efeitos visuais.
+
+- `transition → Adiciona uma animação suave ao alterar propriedades.
+- `@keyframes → Define uma animação personalizada.
+- `animation → Aplica uma animação a um elemento.
