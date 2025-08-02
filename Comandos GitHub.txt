@@ -1,0 +1,34 @@
+Comandos para GitHub:
+
+- git add . 
+
+Adição de novos arquivos, fotos, ou qualquer nova alteração de comandos.
+
+
+
+- git commit - m 
+
+Serve para (comentar) as alterações realizadas.
+
+
+
+- git push 
+
+Subir os dados para o repositorio
+
+
+
+- git pull
+
+Atualização na máquina (Baixa todos os dados na nuvem do GitHub)
+
+
+
+cls:
+
+Limpar terminal
+
+
+
+Login: Extreme333
+Senha: Extreme2404
